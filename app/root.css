@@ -1,12 +1,3 @@
-/*
-* TailwindCSS & ShadCN.
-* @see https://tailwindcss.com/docs/guides/remix
-* @see https://ui.shadcn.com
-*/
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
   :root {
     --background: 0 0% 100%;

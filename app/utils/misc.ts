@@ -2,15 +2,14 @@ import type { SerializeFrom } from '@remix-run/node'
 import type { ClassValue } from 'clsx'
 import type { loader as rootLoader } from '#app/root'
 import { useFormAction, useNavigation, useRouteLoaderData } from '@remix-run/react'
-import { clsx } from 'clsx'
-import { twMerge } from 'tailwind-merge'
 
 /**
  * Tailwind CSS classnames with support for conditional classes.
  * Widely used for Radix components.
  */
 export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs))
+    // TODO - REMOVE ALL THE CN FUNCTIONS
+  return '';
 }
 
 /**

@@ -30,7 +30,7 @@ export async function sendEmail(options: SendEmailOptions) {
     throw new Error(`Resend - ${ERRORS.ENVS_NOT_INITIALIZED}`)
   }
 
-  const from = 'onboarding@resend.dev'
+  const from = 'hey@meeels.com'
   const email = { from, ...options }
 
   const response = await fetch('https://api.resend.com/emails', {
